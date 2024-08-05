@@ -9,10 +9,10 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center max-w-2xl">
           <div className="flex flex-row justify">           
-            <h1 className="mb-4 mr-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Hello I'm Ahsan</h1>
-            <h3 className="mb-4 text-3xl font-regular leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"> Malik</h3>
+            <h1 className="mb-3 mr-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Hello I'm Ahsan</h1>
+            <h3 className="mb-3 text-3xl font-regular leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"> Malik</h3>
           </div>
-          <p className="mb-3 text-lg text-gray-500 text-wrap md:text-xl dark:text-gray-400">An undergraduate ITB Informatics Engineering student and currently diving into software development and cybersecurity, eager to master the latest tech and security solutions.</p>
+          <p className="mb-3 text-lg text-gray-500 text-wrap md:text-xl dark:text-gray-400 ">An undergraduate ITB Informatics Engineering student and currently diving into software development and cybersecurity, eager to master the latest tech and security solutions. My goal is to able make meaningful impact on society</p>
           <div className="flex flex-row space-x-2">
             <a href="https://github.com/hhansl">
               <Image src="/github-mark-white.png" alt="github logo" height={30} width={30}></Image>
@@ -20,7 +20,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/ahsan-malik-al-farisi-86a735254/">
               <Image src="/In-Blue-34@2x.png" alt="linkedin logo" height={30} width={30}></Image>
             </a>
-              <a href="https://www.instagram.com/ahsuunn/">
+              <a href="https://www.instagram.com/ahsuunn/" className="-translate-x-1">
                 <Image src="/instagram-logo.png" alt="instagram logo" height={30} width={33}></Image>
               </a>
           </div>
