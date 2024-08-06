@@ -42,20 +42,27 @@ const Home = () => {
       
       <hr className="h-px mx-20 mb-4 bg-gray-200 border-0 dark:bg-gray-700"/>
       
-      <div className="flex flex-col items-center space-y-4" data-aos="fade-up">
+      <div className="flex flex-col items-center mx-40 space-y-4" data-aos="fade-up">
         <h2 className="mb-4 mt-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Interest
         </h2>
-        <div className="flex flex-row justify-center mx-40 space-x-6">
-          <div className="flex flex-col items-center w-full p-4 ms-auto bg-gray-100 rounded-md dark:bg-gray-800">
+        
+        <div className="flex flex-row justify-center items-center space-x-2">
+          <img src="/coding.png" alt="Software Development" className="w-32" />
+          <div className="flex flex-col max-w-4xl p-4 ms-auto">
             <h3 className="mb-2 text-2xl lg:text-4xl font-medium text-gray-900 dark:text-white">Software Development</h3>
-            <p className="text-lg text-gray-500 dark:text-gray-400">Actively studying and developing software such as web application and mobile applications to improve user experience.</p>
-          </div>
-          <div className="flex flex-col items-center w-full p-4 bg-gray-100 rounded-md dark:bg-gray-800">
-            <h3 className="mb-2 text-2xl lg:text-4xl font-medium text-gray-900 dark:text-white">Cybersecurity</h3>
-            <p className="text-lg text-gray-500 dark:text-gray-400">Actively studying and competing in cybersecurity to protect systems and networks from cyber attacks and ensuring data confidentiality, integrity, and availability.</p>
+            <p className="text-lg text-gray-500 dark:text-gray-400 text-justify">Actively studying and developing software such as web application and mobile applications to improve user experience.</p>
           </div>
         </div>
+
+        <div className="flex flex-row justify-center items-center space-x-2">
+          <img src="/kali-2.svg" alt="Kali Linux" className="w-32" />
+          <div className="flex flex-col max-w-4xl p-4 ms-auto">
+            <h3 className="mb-2 text-2xl lg:text-4xl font-medium text-gray-900 dark:text-white">Cyber Security</h3>
+            <p className="text-lg text-gray-500 dark:text-gray-400 text-justify">Actively studying and competing in cybersecurity to protect systems and networks from cyber attacks and ensuring data confidentiality, integrity, and availability</p>
+          </div>
+        </div>
+        
       </div>
       
       <div className="mt-8 flex flex-col items-center space-y-4" data-aos="fade-up">
@@ -65,7 +72,7 @@ const Home = () => {
 
         <div className="flex flex-row mx-40 space-x-6">
           <div className="flex flex-col w-full py-4 px-8 ms-auto bg-gray-100 rounded-md dark:bg-gray-800">
-          <h3 className="mb-2 text-2xl lg:text-4xl text-center font-medium text-gray-900 dark:text-white">Tech Stack</h3>
+           <h3 className="mb-2 text-2xl lg:text-4xl text-center font-medium text-gray-900 dark:text-white">Tech Stack</h3>
               <p className="text-lg text-gray-500 dark:text-gray-400">In my journey as a developer, I am currently developing my skills in a few fields such as:</p>
               <ul className=" list-disc text-lg text-start ml-4 text-gray-500 dark:text-gray-400">
                 <li><span className=" text-[#5898dc] font-semibold">Flutter</span> and <span className="text-[#FFA611] font-semibold">Firebase</span> for mobile application development</li>
@@ -123,11 +130,44 @@ const Home = () => {
         <a href="https://github.com/ahsuunn/bisabisnis" className="my-auto lg:my-20 mx-auto">
           <img src="/bb/logo_bb.png" alt="Bisa Bisnis Logo" className="w-16 lg:w-24 drop-shadow-md" />
         </a>
-    
-
-
-
       </div>
+
+      <div className="flex flex-col mx-40 ">
+        <h2 className="mb-4 mt-4 text-4xl font-medium text-end leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Achievment and Experience</h2>
+        <p className="dark:text-gray-400 lg:text-lg text-justify">As a dedicated student, I have actively participated in various organizations, taking on roles that have helped me develop leadership, teamwork, and problem-solving skills. My involvement in these organizations has allowed me to contribute to meaningful projects, collaborate with diverse teams, and enhance my abilities in managing tasks and leading initiatives. Below is a list of my organizational experiences:</p>
+        
+        <div className="flex flex-row mt-2 pt-2 pb-1 space-x-4 my-auto place-items-end">
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Eagle Boy Scout</h3>
+          <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2019</p>
+        </div>
+          <p className="text-gray-400">Eagle Scouts are young members of the Scout Movement who have achieved the highest skills and awards at each level of scouting education.</p>
+        
+        <div className="flex flex-row pt-2 pb-1 space-x-4 my-auto place-items-end">
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Boy Scout Troop Leader</h3>
+          <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2019-2020</p>
+        </div>
+          <p className="text-gray-400">As the leader of the Boy Scouts my responsibilities include overseeing and coordinating troop activities, leading meetings, and ensuring the welfare and development of all scouts under their supervision.</p>
+
+        <div className="flex flex-row pt-2 pb-1 space-x-4 my-auto place-items-end">
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Chairman of the Student Representative Counsil</h3>
+          <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2022-2023</p>
+        </div>
+          <p className="text-gray-400">As the Chairman of the Student Representative Council (MPK), my primary responsibilities include leading and managing the council to ensure effective student representation and governance.</p>
+
+        <div className="flex flex-row pt-2 pb-1 space-x-4 my-auto place-items-end">
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Competition Staff on Sandbox by IEEE ITB SB</h3>
+          <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2023-2024</p>
+        </div>
+          <p className="text-gray-400">As a competition staff my responsibilities include designing a fair scoring system and coordinating with the judges on how to score the participants works.</p>
+        
+        <div className="flex flex-row pt-2 pb-1 space-x-4 my-auto place-items-end">
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Event Staff on IMPACT 4.0 ITB</h3>
+          <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2023-2024</p>
+        </div>
+          <p className="text-gray-400">As an event staff my job is to plan the schedule of the competition especially at the final stage.</p>
+      
+      </div>
+
 
     </main>
     );
