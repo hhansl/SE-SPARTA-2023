@@ -26,17 +26,6 @@ const Home = () => {
           <h1 className="mb-2 mr-4 text-xl font-bold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Hello I'm</h1>
           <h3 className="mb-3 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Ahsan Malik Al Farisi</h3>
           <p className="mb-4 text-lg text-gray-500 text-wrap text-justify md:text-xl lg:text-lg dark:text-gray-400" data-aos="fade-left">An undergraduate ITB Informatics Engineering student and currently diving into software development and cybersecurity, eager to master the latest tech and security solutions. My goal is to able make meaningful impact on society</p>
-          <div className="flex flex-row space-x-5" data-aos="fade-left">
-            <a href="https://github.com/hhansl">
-              <Image src="/github-mark-white.png" alt="github logo" height={30} width={30}></Image>
-            </a>
-            <a href="https://www.linkedin.com/in/ahsan-malik-al-farisi-86a735254/">
-              <Image src="/In-Blue-34@2x.png" alt="linkedin logo" height={30} width={30}></Image>
-            </a>
-              <a href="https://www.instagram.com/ahsuunn/" className="-translate-x-1">
-                <Image src="/instagram-logo.png" alt="instagram logo" height={30} width={33}></Image>
-              </a>
-          </div>
         </div>
       </div>  
       
@@ -137,13 +126,13 @@ const Home = () => {
         <p className="dark:text-gray-400 lg:text-lg text-justify">As a dedicated student, I have actively participated in various organizations, taking on roles that have helped me develop leadership, teamwork, and problem-solving skills. My involvement in these organizations has allowed me to contribute to meaningful projects, collaborate with diverse teams, and enhance my abilities in managing tasks and leading initiatives. Below is a list of my organizational experiences:</p>
         
         <div className="flex flex-row mt-2 pt-2 pb-1 space-x-4 my-auto place-items-end">
-          <h3 className="text-2xl lg:text-3xl text-white font-medium">Eagle Boy Scout</h3>
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Eagle Scout</h3>
           <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2019</p>
         </div>
           <p className="text-gray-400">Eagle Scouts are young members of the Scout Movement who have achieved the highest skills and awards at each level of scouting education.</p>
         
         <div className="flex flex-row pt-2 pb-1 space-x-4 my-auto place-items-end">
-          <h3 className="text-2xl lg:text-3xl text-white font-medium">Boy Scout Troop Leader</h3>
+          <h3 className="text-2xl lg:text-3xl text-white font-medium">Scout Troop Leader</h3>
           <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2019-2020</p>
         </div>
           <p className="text-gray-400">As the leader of the Boy Scouts my responsibilities include overseeing and coordinating troop activities, leading meetings, and ensuring the welfare and development of all scouts under their supervision.</p>
@@ -165,9 +154,28 @@ const Home = () => {
           <p className="text-lg lg:text-xl text-gray-500 font-medium dark:text-gray-400">2023-2024</p>
         </div>
           <p className="text-gray-400">As an event staff my job is to plan the schedule of the competition especially at the final stage.</p>
-      
       </div>
 
+      <hr className="h-px mx-20 my-12 bg-gray-200 border-0 dark:bg-gray-700"/>
+
+      <div className="flex flex-col items-center">
+        <h2 className="mb-4 text-4xl font-medium text-end leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Contact</h2>
+        <p className="text-lg lg:text-xl text-gray-500 dark:text-gray-400">Feel free to reach out to me through the following channels!</p>
+        <div className="flex flex-row space-x-5 p-4 items-center">
+            <a href="mailto:themalique1910@gmail.com" className="flex flex-row items-center text-white translate-y-0.5">
+              <svg  xmlns="http://www.w3.org/2000/svg"  width="38"  height="38"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </a>
+            <a href="https://github.com/hhansl">
+              <Image src="/github-mark-white.png" alt="github logo" height={30} width={30}></Image>
+            </a>
+            <a href="https://www.linkedin.com/in/ahsan-malik-al-farisi-86a735254/">
+              <Image src="/In-Blue-34@2x.png" alt="linkedin logo" height={30} width={30}></Image>
+            </a>
+              <a href="https://www.instagram.com/ahsuunn/" className="-translate-x-1">
+                <Image src="/instagram-logo.png" alt="instagram logo" height={30} width={38}></Image>
+              </a>
+          </div>
+      </div>
 
     </main>
     );
