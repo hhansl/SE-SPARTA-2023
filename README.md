@@ -10,23 +10,16 @@ To run the program simply pull the repo and run the command
 npm run dev
 ```
 
-# Bonus
-## Deployment
-Will be deployed soon
-
-## Responsiveness
-Fully responsive
-
-## CMS
-Not done
-
-## Bonus
-Added a little bit of animation
+# Bonus Status
+1. Deployment      : Will be deployed soon <br>
+2. Responsiveness  : Fully responsive <br>
+3. CMS             : Not done <br>
+4. Bonus           : Added a little bit of animation <br>
 
 # Difficulties
 When working on this project i only know a little bit of HTML and CSS so it was a bit challenging for me to do it on next.js but after a while the way to write code is intuitive so it was becoming more easy to do.
 
 # Identities
-Name : Ahsan Malik Al Farisi 
-NIM  : 19623054 / 13523074
-Klan : R
+Name : Ahsan Malik Al Farisi <br>
+NIM  : 19623054 / 13523074 <br>
+Klan : R <br>
