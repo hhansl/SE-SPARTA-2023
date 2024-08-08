@@ -25,7 +25,7 @@ const Home = () => {
         <div className="flex flex-col items-center lg:items-start justify-center max-w-2xl">
           <h1 className="mb-2 mr-4 text-xl font-bold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Hello I'm</h1>
           <h3 className="mb-3 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Ahsan Malik Al Farisi</h3>
-          <p className="mb-4 mx-auto text-lg text-gray-500 text-wrap text-justify md:text-xl lg:text-lg dark:text-gray-400" data-aos="fade-left">An undergraduate ITB Informatics Engineering student and currently diving into software development and cybersecurity, eager to master the latest tech and security solutions. My goal is to able make meaningful impact on society</p>
+          <p className="mb-4 mx-auto text-lg text-gray-500 text-wrap text-justify md:text-xl lg:text-lg dark:text-gray-400" data-aos="fade-left">A 2nd year undergraduate ITB Informatics Engineering student and currently diving into software development with a focus on web development and mobile app creation. In addition to honing my programming skills, I am deeply passionate about cybersecurity, consistently challenging myself through Capture The Flag (CTF) competitions to sharpen my abilities and stay at the forefront of the field.</p>
         </div>
       </div>  
       
@@ -99,7 +99,7 @@ const Home = () => {
           <div className="flex flex-col py-4 px-8 w-full h-ma bg-gray-100 rounded-md dark:bg-gray-800">
             <h3 className="mb-2 text-2xl lg:text-4xl font-medium text-center text-gray-900 dark:text-white">Soft Skill</h3>
               <p className="text-lg text-justify text-gray-500 dark:text-gray-400 ">In addition to my technical abilities, I possess a range of soft skills that contribute to my overall effectiveness and success in both academic and professional environments. These skills enhance my ability to collaborate with others, adapt to various situations, and continually strive for excellence.</p>
-                <ul className="flex flex-wrap list-disc text-lg justify-between ml-4 text-gray-500 dark:text-gray-400">
+                <ul className="flex flex-wrap list-disc list-inside text-lg justify-between ml-4 text-gray-500 dark:text-gray-400">
                   <li>Problem Solving</li>
                   <li>Teamwork</li>
                   <li>Communication</li>
