@@ -1,12 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
     <div className="flex flex-col relative lg:flex-row justify-center min-h-screen font-sans items-center space-x-10 p-8" >
         <div className="absolute z-20 bg-gradient-to-b w-full h-full from-transparent from-70% to-[#1a2131]"/>
-        <img src="/gradient-1.jpg" className="absolute -left-10 w-full object-fill opacity-25 h-full"></img>
+        <Image src="/gradient-1.jpg" className="absolute -left-10 w-full object-fill opacity-25 h-full" fill={true} alt='Background Image'></Image>
         <div className="relative rounded-lg w-64 h-72 lg:w-72 lg:h-80 overflow-hidden mb-4 lg:mb-0 mx-auto lg:mx-0" data-aos="fade right">
-          <img  src="/ahsan-1.jpg" className="object-cover transform translate-x-2 -translate-y-28 scale-150"  alt="foto diri" />
+          <Image  src="/ahsan-1.jpg" className="object-cover transform translate-x-2 -translate-y-16 scale-150"  fill={true} alt="Foto diri" />
         </div>
         <div className="flex flex-col items-center lg:items-start justify-center max-w-2xl">
           <h1 className="mb-1 mr-4 text-xl italic font-semibold leading-none tracking-tight text-gray-200 md:text-2xl lg:text-3xl" data-aos="fade-left">Hello I'm</h1>

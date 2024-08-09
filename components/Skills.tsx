@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Skills = () => {
   return (
@@ -17,12 +18,12 @@ const Skills = () => {
               <li><span className="text-[#ffde57] font-semibold">Python</span> and <span className="text-[#43769e] font-semibold">C++</span> for algorithm and data structure</li>
             </ul>
             <div className="flex flex-row py-1.5 mt-4 bg-gray-700 rounded-lg">
-              <img src="/icon/flutterio-icon.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="400" />
-              <img src="/icon/firebase-icon.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="450" />
-              <img src="/icon/next-js.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="500"/>
-              <img src="/icon/tailwind-css-2.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="550"/>
-              <img src="/icon/Python-logo-notext.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600"/>
-              <img src="/icon/c.svg" alt="tech stack" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="650"/>
+              <Image src="/icon/flutterio-icon.svg" alt="flutter" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="400"  height={8} width={8} />
+              <Image src="/icon/firebase-icon.svg" alt="firebase" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="450"  height={8} width={8}/>
+              <Image src="/icon/next-js.svg" alt="next-js" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="500" height={8} width={8}/>
+              <Image src="/icon/tailwind-css-2.svg" alt="tailwind" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="550" height={8} width={8}/>
+              <Image src="/icon/Python-logo-notext.svg" alt="python" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600" height={8} width={8}/>
+              <Image src="/icon/c.svg" alt="c++" className="w-6 lg:w-8 my-auto mx-auto" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="650" height={8} width={8}/>
             </div>
           </div>
           <div className="flex flex-col w-full py-8 px-8 bg-gray-100 rounded-md dark:bg-gray-800 shadow-inner shadow-gray-700">
