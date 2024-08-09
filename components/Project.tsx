@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Project = () => {
   return (
@@ -10,7 +11,7 @@ const Project = () => {
               <span className="text-white">Bisa Bisnis</span> is a mobile application designed to support aspiring entrepreneurs by offering comprehensive classes on essential business topics such as marketing and administration. Created with <span className="text-[#5898dc]">Flutter</span> for the frontend and <span className="text-[#FFA611]">Firebase</span> for the backend, the app ensures a seamless user experience across Android and iOS platforms while providing secure login and authentication features.
             </p>
             <a href="https://github.com/ahsuunn/bisabisnis" className="">
-              <img src="/bb/logo_bb.png" alt="Bisa Bisnis Logo" className="w-22 lg:w-28 drop-shadow-md" />
+              <Image src="/bb/logo_bb 1.svg" alt="Bisa Bisnis Logo" className="w-22 lg:w-28 drop-shadow-md" height={28} width={28}/>
             </a>
           </div>
       </div>
