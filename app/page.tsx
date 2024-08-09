@@ -17,15 +17,15 @@ const Home = () => {
     AOS.init();
   }, []);
   return (
-    <main className="dark:bg-gray-900 overflow-hidden">
-      <div className="flex flex-col lg:flex-row justify-center font-sans space-x-10 p-8" >
+    <main className="dark:bg-gradient-to-t from-gray-700 to-gray-900 overflow-hidden">
+      <div className="flex flex-col lg:flex-row justify-center min-h-screen font-sans items-center space-x-10 p-8" >
         <div className="relative rounded-lg w-64 h-72 overflow-hidden mb-4 lg:mb-0 mx-auto lg:mx-0" data-aos="fade right">
           <img  src="/ahsan.jpg" className="object-cover transform translate-x-4 -translate-y-24 scale-125"  alt="foto diri" />
         </div>
         <div className="flex flex-col items-center lg:items-start justify-center max-w-2xl">
-          <h1 className="mb-2 mr-4 text-xl font-bold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Hello I'm</h1>
-          <h3 className="mb-3 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl bg-gradient-to-br from-white to-[#86adfc] inline-block text-transparent bg-clip-text text-left" data-aos="fade-left">Ahsan Malik Al Farisi</h3>
-          <p className="mb-4 mx-auto text-lg text-gray-500 text-wrap text-justify md:text-xl lg:text-lg dark:text-gray-400" data-aos="fade-left">A 2nd year undergraduate ITB Informatics Engineering student and currently diving into software development with a focus on web development and mobile app creation. In addition to honing my programming skills, I am deeply passionate about cybersecurity, consistently challenging myself through Capture The Flag (CTF) competitions to sharpen my abilities and stay at the forefront of the field.</p>
+          <h1 className="mb-1 mr-4 text-xl italic font-semibold leading-none tracking-tight text-gray-200 md:text-2xl lg:text-3xl" data-aos="fade-left">Hello I'm</h1>
+          <h3 className="mb-3 text-3xl font-bold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl" data-aos="fade-left"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Ahsan Malik</span> Al Farisi</h3>
+          <p className="mb-4 mx-auto text-lg text-gray-500 text-wrap text-justify md:text-xl lg:text-lg dark:text-gray-400" data-aos="fade-left">A 2nd year undergraduate <span className="text-gray-200 font-semibold">ITB Informatics Engineering student</span> and currently diving into <span className="text-gray-200">software development</span> with a focus on <span className="text-gray-200">web development</span> and <span className="text-gray-200">mobile app</span> creation. In addition to honing my programming skills, I am deeply passionate about <span className="text-gray-200">cybersecurity</span>, consistently challenging myself through Capture The Flag (CTF) competitions to sharpen my abilities and stay at the forefront of the field.</p>
         </div>
       </div>  
       
@@ -112,10 +112,10 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col my-8 px-16 lg:px-40" data-aos="fade-left">
-        <h2 className="mb-4 mt-4 text-4xl font-semibold text-start leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white">Project</h2>  
+        <h2 className="mb-4 mt-4 text-4xl font-semibold text-start leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white"><span className="underline underline-offset-3 decoration-6 decoration-blue-400 dark:decoration-blue-600">Project</span></h2>  
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-            <p className="text-lg text-gray-500 dark:text-gray-400 text-justify lg:w-4/5">
-              Bisa Bisnis is a mobile application designed to support aspiring entrepreneurs by offering comprehensive classes on essential business topics such as marketing and administration. Created with <span className="text-[#5898dc]">Flutter</span> for the frontend and <span className="text-[#FFA611]">Firebase</span> for the backend, the app ensures a seamless user experience across Android and iOS platforms while providing secure login and authentication features.
+            <p className="text-lg text-gray-500 dark:text-gray-400 text-left lg:w-4/5">
+              <span className="text-white">Bisa Bisnis</span> is a mobile application designed to support aspiring entrepreneurs by offering comprehensive classes on essential business topics such as marketing and administration. Created with <span className="text-[#5898dc]">Flutter</span> for the frontend and <span className="text-[#FFA611]">Firebase</span> for the backend, the app ensures a seamless user experience across Android and iOS platforms while providing secure login and authentication features.
             </p>
             <a href="https://github.com/ahsuunn/bisabisnis" className="">
               <img src="/bb/logo_bb.png" alt="Bisa Bisnis Logo" className="w-22 lg:w-28 drop-shadow-md" />
@@ -125,7 +125,7 @@ const Home = () => {
 
       <div className="flex flex-col mt-6 lg:mt-0 mx-16 lg:mx-40" data-aos="fade-left">
         <h2 className="mb-4 mt-4 text-4xl font-semibold text-end leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white" data-aos="fade-right">Achievement and Experience</h2>
-        <p className="dark:text-gray-400 lg:text-lg text-justify" data-aos="fade-right">As a dedicated student, I have actively participated in various organizations, taking on roles that have helped me develop leadership, teamwork, and problem-solving skills. My involvement in these organizations has allowed me to contribute to meaningful projects, collaborate with diverse teams, and enhance my abilities in managing tasks and leading initiatives. Below is a list of my organizational experiences:</p>
+        <p className="dark:text-gray-400 lg:text-lg text-right" data-aos="fade-right">As a dedicated student, I have actively participated in various organizations, taking on roles that have helped me develop leadership, teamwork, and problem-solving skills. My involvement in these organizations has allowed me to contribute to meaningful projects, collaborate with diverse teams, and enhance my abilities in managing tasks and leading initiatives. Below is a list of my organizational experiences:</p>
         
         <div className="flex flex-wrap mt-2 pt-2 pb-1 my-auto place-items-end">
           <h3 className="text-2xl lg:text-3xl text-white font-medium mr-4">Eagle Scout</h3>
