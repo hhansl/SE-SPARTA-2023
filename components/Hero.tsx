@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col relative lg:flex-row justify-center min-h-screen font-sans items-center gap-8 px-12 py-8" >
+    <div className="flex flex-col relative lg:flex-row justify-center min-h-screen font-sans items-center gap-8 px-12 py-8 overflow-hidden" >
       <div className="absolute z-20 bg-gradient-to-b w-full h-full from-transparent from-70% to-[#1a2131]"/>
         <Image 
         src="/gradient-1.jpg"
@@ -11,7 +11,7 @@ const Hero = () => {
         layout="fill"
         objectFit="cover"
         objectPosition="left"
-        className="absolute -translate-x-0 z-0 opacity-25"
+        className="absolute -translate-x-0 z-0 opacity-25 blur-sm"
       />
       <div className="relative rounded-lg w-64 h-72 lg:w-72 lg:h-80 overflow-hidden mb-4 lg:mb-0 mx-auto lg:mx-0 z-20" data-aos="fade right">
         <Image  src="/ahsan-1.jpg" className="object-cover transform translate-x-2 -translate-y-16 scale-150"  fill={true} alt="Foto diri" />

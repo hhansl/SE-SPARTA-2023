@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Interest = () => {
   return (
     <div className="flex flex-col items-center pt-6 lg:pt-8 pb-8 lg:pb-12 px-8 lg:px-40 space-y-4 bg-gradient-to-b from-[#1a2131] to-[#1f2737]" >
-        <h2 className="mb-2 mt-4 text-5xl font-semibold leading-none tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-l from-[#81e5f5] to-white drop-shadow-lg shadow-blue-200 " data-aos="fade-up">
+        <h2 className="mb-2 mt-4 text-5xl font-semibold leading-none tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-gray-400 to-white drop-shadow-lg shadow-blue-200 " data-aos="fade-up">
           Interest
         </h2>
         

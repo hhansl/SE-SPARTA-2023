@@ -1,6 +1,5 @@
 # Project
 This is a Web Portofolio Project around me (Ahsan Malik Al Farisi) a 2nd year undergraduate Informatics ITB Student.
-https://ahsan-portfolio-black.vercel.app/<br>
 
 
 # Technology
@@ -13,7 +12,7 @@ npm run dev
 ```
 
 # Bonus Status
-1. Deployment      : Will be deployed soon <br>
+1. Deployment      : https://ahsan-portfolio-black.vercel.app/<br>
 2. Responsiveness  : Fully responsive <br>
 3. CMS             : Not done <br>
 4. Bonus           : Added a little bit of animation <br>
