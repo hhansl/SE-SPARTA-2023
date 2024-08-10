@@ -9,6 +9,8 @@ import Skills from "@/components/Skills.tsx";
 import Project from "@/components/Project.tsx";
 import Experience from "@/components/Experience.tsx";
 import Contact from "@/components/Contact.tsx";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const Home = () => {
   useEffect(() => {
@@ -16,6 +18,8 @@ const Home = () => {
   }, []);
   return (
     <main className="dark:bg-gradient-to-t from-gray-700 to-gray-900 overflow-hidden">
+      <SpeedInsights/>
+      <Analytics/>
       <Hero/>
       <Interest/>
       <Skills/>
